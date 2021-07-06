@@ -56,7 +56,7 @@ router
 router.route("/add").post(middleware.checkToken, (req, res) => {
   const profile = Profile({
     email: req.decoded.email, 
-    username: req.body.email,
+    username: req.body.username,
     firstName: req.body.firstName,
     secondName: req.body.secondName,
     DOB: req.body.DOB,
