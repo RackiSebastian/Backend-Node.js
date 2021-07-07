@@ -24,6 +24,8 @@ const userRoute = require("./routes/user");
 app.use("/user", userRoute);
 const profileRoute = require("./routes/profile");
 app.use("/profile", profileRoute);
+const galleryRoute = require("./routes/gallery")
+app.use("/gallery",galleryRoute)
 
 
 
